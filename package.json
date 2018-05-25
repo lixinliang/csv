@@ -1,0 +1,22 @@
+{
+  "name": "csv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "bin": {
+    "csv": "./bin/csv.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@antv/g2": "^3.0.12",
+    "commander": "^2.15.1",
+    "csvtojson": "^2.0.0",
+    "fs-extra": "^6.0.1",
+    "shelljs": "^0.8.2",
+    "yargs": "^11.0.0"
+  }
+}
